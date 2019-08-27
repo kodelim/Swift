@@ -1,3 +1,8 @@
+// Kodelim - TR
+// Tuple (Swift)
+// Telif Hakkı © Kodelim - TR. Tüm hakları saklıdır.
+// Yazının Bağlantısı: https://medium.com/kodelim/tuple-swift-4a84d0fe4ecf
+
 import UIKit
 
 // Creating a Tuple
@@ -32,4 +37,3 @@ let http404Error = (404, "Not Found")
 let (statusCode, statusMessage) = http404Error
 print("The status code is \(statusCode)")
 print("The status message is \(statusMessage)")
-

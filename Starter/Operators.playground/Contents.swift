@@ -1,3 +1,8 @@
+// Kodelim - TR
+// Operatörler (Swift)
+// Telif Hakkı © Kodelim - TR. Tüm hakları saklıdır.
+// Yazının Bağlantısı: https://medium.com/kodelim/operatörler-swift-3d89b8163d92
+
 import UIKit
 
 // Assignment Operator

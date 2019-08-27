@@ -1,3 +1,8 @@
+// Kodelim - TR
+// Diziler (Swift)
+// Telif Hakkı © Kodelim - TR. Tüm hakları saklıdır.
+// Yazının Bağlantısı: https://medium.com/kodelim/diziler-swift-ab404f26e757
+
 import UIKit
 
 let a = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29]

@@ -1,3 +1,8 @@
+// Kodelim - TR
+// Değişken Tipleri (Swift)
+// Telif Hakkı © Kodelim - TR. Tüm hakları saklıdır.
+// Yazının Bağlantısı: https://medium.com/kodelim/değişken-tipleri-nedir-swift-51e065912303
+
 import UIKit
 
 // String

@@ -1,3 +1,8 @@
+// Kodelim - TR
+// Sözlükler (Swift)
+// Telif Hakkı © Kodelim - TR. Tüm hakları saklıdır.
+// Yazının Bağlantısı: https://medium.com/kodelim/sözlükler-swift-7e8b63a161b0
+
 import UIKit
 
 var dict = ["a": "Apple", "b": "Banana", "c": "Cabbage"]

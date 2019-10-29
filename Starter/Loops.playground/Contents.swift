@@ -71,12 +71,12 @@ default:
     print("Number is unkown.")
 }
 
-let characters: Character = "a"
+let characters: Character = "c"
 switch characters {
 case "a", "A":
     print("This is A!")
 case "b", "B":
     print("This is B!")
 default:
-    print("This is not a character!")
+    break
 }

@@ -5,7 +5,7 @@
 
 import UIKit
 
-// For-In Loops
+// For-In
 for index in 1..<8 {
     print(index * index)
 }
@@ -28,7 +28,7 @@ for (name, age) in persons {
     print("\(name) is \(age) years old.")
 }
 
-// While Loops
+// While
 var age = 10
 while age != 100 {
     print("Person is \(age) years old.")
@@ -36,13 +36,14 @@ while age != 100 {
 }
 print("The person died before \(age)")
 
+/* Repeat-While */
 var d = 4
 repeat {
     d -= 1
     print(d)
 } while d > 0 && d <= 4
 
-// If Loop
+// If
 var e = 13
 if e == 10 {
     print("Value is \(e + 5).")
@@ -60,7 +61,18 @@ if names[0] != "Can" {
 }
 print(names)
 
-// Switch Loop
+// Guard
+func biggerThanFiveAndTen(x: String) {
+    guard x.count > 5, x.count > 10 else {
+        print("\(x) is smaller than 5.")
+        return
+    }
+
+    print("\(x) is bigger than 5 and 10.")
+}
+biggerThanFiveAndTen(x: "Can")
+
+// Switch
 let f = 2
 switch f {
 case 0:
